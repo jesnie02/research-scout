@@ -1,0 +1,29 @@
+{
+ "outcome": "conflicting_constraints",
+ "message": "The year constraints contradict each other (before 2010, after 2020): no publication year satisfies all of them.",
+ "request": {
+  "topic": "computer vision",
+  "year": [
+   {
+    "op": "before",
+    "value": 2010
+   },
+   {
+    "op": "after",
+    "value": 2020
+   }
+  ],
+  "citations": [],
+  "recent": false,
+  "answer_requirements": null,
+  "clarifying_question": null,
+  "note": "The year constraints (before 2010 and after 2020) are mutually exclusive; both are included as specified in the request."
+ },
+ "intervals": null,
+ "paper": null,
+ "searches": [],
+ "candidates": [],
+ "raw_responses": [],
+ "model_requests": 1,
+ "tool_calls": 0
+}

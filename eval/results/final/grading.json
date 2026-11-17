@@ -1,0 +1,1391 @@
+[
+ {
+  "case_id": "C01",
+  "category": "broad_topic",
+  "run": 1,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W3180521376",
+  "paper_title": "Progress in Machine Translation",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C01_r1.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C01",
+  "category": "broad_topic",
+  "run": 2,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W3180521376",
+  "paper_title": "Progress in Machine Translation",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C01_r2.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C01",
+  "category": "broad_topic",
+  "run": 3,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W3180521376",
+  "paper_title": "Progress in Machine Translation",
+  "model_requests": 4,
+  "tool_calls": 2,
+  "searches": 2,
+  "result_file": "C01_r3.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C02",
+  "category": "narrow_topic",
+  "run": 1,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W4415302063",
+  "paper_title": "Federated Learning-Based ResNet-18 Model for Brain Tumor Classification in MRI Scans",
+  "model_requests": 4,
+  "tool_calls": 2,
+  "searches": 2,
+  "result_file": "C02_r1.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "fail",
+   "note": "P\u00e5st\u00e5r tr\u00e6ning 'without sharing raw patient data'; st\u00e5r ikke i abstract, som tv\u00e6rtimod n\u00e6vner overf\u00f8rsel af MRI-scanninger til medicinske centre. Relevant emne, men svag artikel (3 citationer)."
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C02",
+  "category": "narrow_topic",
+  "run": 2,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W4415302063",
+  "paper_title": "Federated Learning-Based ResNet-18 Model for Brain Tumor Classification in MRI Scans",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C02_r2.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "fail",
+   "note": "P\u00e5st\u00e5r tr\u00e6ning 'without sharing raw patient data'; st\u00e5r ikke i abstract, som tv\u00e6rtimod n\u00e6vner overf\u00f8rsel af MRI-scanninger til medicinske centre. Relevant emne, men svag artikel (3 citationer)."
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C02",
+  "category": "narrow_topic",
+  "run": 3,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W4415302063",
+  "paper_title": "Federated Learning-Based ResNet-18 Model for Brain Tumor Classification in MRI Scans",
+  "model_requests": 4,
+  "tool_calls": 2,
+  "searches": 2,
+  "result_file": "C02_r3.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "fail",
+   "note": "P\u00e5st\u00e5r tr\u00e6ning 'without sharing raw patient data'; st\u00e5r ikke i abstract, som tv\u00e6rtimod n\u00e6vner overf\u00f8rsel af MRI-scanninger til medicinske centre. Relevant emne, men svag artikel (3 citationer)."
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C03",
+  "category": "year_before",
+  "run": 1,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W2322011271",
+  "paper_title": "Image Classification Using Convolutional Neural Networks",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C03_r1.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C03",
+  "category": "year_before",
+  "run": 2,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W2322011271",
+  "paper_title": "Image Classification Using Convolutional Neural Networks",
+  "model_requests": 6,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C03_r2.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C03",
+  "category": "year_before",
+  "run": 3,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W2148461049",
+  "paper_title": "Flexible, high performance convolutional neural networks for image classification",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C03_r3.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C04",
+  "category": "year_after",
+  "run": 1,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W4386076403",
+  "paper_title": "LayoutDiffusion: Controllable Diffusion Model for Layout-to-Image Generation",
+  "model_requests": 4,
+  "tool_calls": 2,
+  "searches": 2,
+  "result_file": "C04_r1.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "pass"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": "2 sentences"
+ },
+ {
+  "case_id": "C04",
+  "category": "year_after",
+  "run": 2,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W4386076403",
+  "paper_title": "LayoutDiffusion: Controllable Diffusion Model for Layout-to-Image Generation",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C04_r2.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "pass"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": "2 sentences"
+ },
+ {
+  "case_id": "C04",
+  "category": "year_after",
+  "run": 3,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W4406814982",
+  "paper_title": "Comprehensive exploration of diffusion models in image generation: a survey",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C04_r3.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "pass"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "fail",
+   "note": "P\u00e5st\u00e5r at surveyen d\u00e6kker metoder 'published after 2021' og er 'authoritative'; st\u00e5r ikke i abstract."
+  },
+  "notes": "3 sentences"
+ },
+ {
+  "case_id": "C05",
+  "category": "year_exact",
+  "run": 1,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W1483870316",
+  "paper_title": "You Only Look Once: Unified, Real-Time Object Detection",
+  "model_requests": 4,
+  "tool_calls": 2,
+  "searches": 2,
+  "result_file": "C05_r1.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C05",
+  "category": "year_exact",
+  "run": 2,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W1483870316",
+  "paper_title": "You Only Look Once: Unified, Real-Time Object Detection",
+  "model_requests": 4,
+  "tool_calls": 2,
+  "searches": 2,
+  "result_file": "C05_r2.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C05",
+  "category": "year_exact",
+  "run": 3,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W1483870316",
+  "paper_title": "You Only Look Once: Unified, Real-Time Object Detection",
+  "model_requests": 4,
+  "tool_calls": 2,
+  "searches": 2,
+  "result_file": "C05_r3.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "fail",
+   "note": "P\u00e5st\u00e5r 'state-of-the-art performance'; abstract siger, at YOLO laver flere lokaliseringsfejl end state-of-the-art."
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C06",
+  "category": "citations_min",
+  "run": 1,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W3195968524",
+  "paper_title": "Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C06_r1.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C06",
+  "category": "citations_min",
+  "run": 2,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W3195968524",
+  "paper_title": "Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C06_r2.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C06",
+  "category": "citations_min",
+  "run": 3,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W2911087563",
+  "paper_title": "Learning agile and dynamic motor skills for legged robots",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C06_r3.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C07",
+  "category": "citations_max",
+  "run": 1,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W4212891974",
+  "paper_title": "Crop Yield Prediction Using Machine Learning Algorithm",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C07_r1.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C07",
+  "category": "citations_max",
+  "run": 2,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W4212891974",
+  "paper_title": "Crop Yield Prediction Using Machine Learning Algorithm",
+  "model_requests": 3,
+  "tool_calls": 1,
+  "searches": 1,
+  "result_file": "C07_r2.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C07",
+  "category": "citations_max",
+  "run": 3,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W4212891974",
+  "paper_title": "Crop Yield Prediction Using Machine Learning Algorithm",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C07_r3.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C08",
+  "category": "citations_about",
+  "run": 1,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W2116391761",
+  "paper_title": "Top-k Exploration of Query Candidates for Efficient Keyword Search on Graph-Shaped (RDF) Data",
+  "model_requests": 6,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C08_r1.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "fail",
+   "explanation": "fail",
+   "grounded": "pass",
+   "note": "Keyword-s\u00f8gning p\u00e5 RDF-grafdata, ikke query optimization i grafdatabaser. Forklaringen str\u00e6kker koblingen via 'database optimization techniques' og kalder den et direkte match."
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C08",
+  "category": "citations_about",
+  "run": 2,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W2116391761",
+  "paper_title": "Top-k Exploration of Query Candidates for Efficient Keyword Search on Graph-Shaped (RDF) Data",
+  "model_requests": 6,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C08_r2.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "fail",
+   "explanation": "fail",
+   "grounded": "pass",
+   "note": "Keyword-s\u00f8gning p\u00e5 RDF-grafdata, ikke query optimization i grafdatabaser. Forklaringen str\u00e6kker koblingen via 'database optimization techniques' og kalder den et direkte match."
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C08",
+  "category": "citations_about",
+  "run": 3,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W2116391761",
+  "paper_title": "Top-k Exploration of Query Candidates for Efficient Keyword Search on Graph-Shaped (RDF) Data",
+  "model_requests": 7,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C08_r3.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "fail",
+   "explanation": "fail",
+   "grounded": "pass",
+   "note": "Keyword-s\u00f8gning p\u00e5 RDF-grafdata, ikke query optimization i grafdatabaser. Forklaringen str\u00e6kker koblingen via 'database optimization techniques' og kalder den et direkte match."
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C09",
+  "category": "combined",
+  "run": 1,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W4221148002",
+  "paper_title": "ETSformer: Exponential Smoothing Transformers for Time-series Forecasting",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C09_r1.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "pass"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "fail",
+   "note": "P\u00e5st\u00e5r eksperimentelle resultater (bedre langtidsforecasting); eksperimenterne st\u00e5r ikke i den del af abstractet, modellen fik (afsk\u00e5ret ved 1.000 tegn)."
+  },
+  "notes": "5 sentences"
+ },
+ {
+  "case_id": "C09",
+  "category": "combined",
+  "run": 2,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W4221148002",
+  "paper_title": "ETSformer: Exponential Smoothing Transformers for Time-series Forecasting",
+  "model_requests": 4,
+  "tool_calls": 2,
+  "searches": 2,
+  "result_file": "C09_r2.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "pass"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "fail",
+   "note": "P\u00e5st\u00e5r at ETSformer sl\u00e5r baselines i eksperimenter; st\u00e5r ikke i den del af abstractet, modellen fik (afsk\u00e5ret ved 1.000 tegn)."
+  },
+  "notes": "5 sentences"
+ },
+ {
+  "case_id": "C09",
+  "category": "combined",
+  "run": 3,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W4382203079",
+  "paper_title": "Are Transformers Effective for Time Series Forecasting?",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C09_r3.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "pass"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": "4 sentences"
+ },
+ {
+  "case_id": "C10",
+  "category": "recent",
+  "run": 1,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W7171511765",
+  "paper_title": "Less Is More: Engineering Challenges of On-Device Small Language Model Integration in a Mobile Application",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C10_r1.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C10",
+  "category": "recent",
+  "run": 2,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W7171511765",
+  "paper_title": "Less Is More: Engineering Challenges of On-Device Small Language Model Integration in a Mobile Application",
+  "model_requests": 4,
+  "tool_calls": 2,
+  "searches": 2,
+  "result_file": "C10_r2.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C10",
+  "category": "recent",
+  "run": 3,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W7171511765",
+  "paper_title": "Less Is More: Engineering Challenges of On-Device Small Language Model Integration in a Mobile Application",
+  "model_requests": 4,
+  "tool_calls": 2,
+  "searches": 2,
+  "result_file": "C10_r3.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C11",
+  "category": "no_result",
+  "run": 1,
+  "outcome": "rejected_on_relevance",
+  "expected_outcomes": [
+   "no_match",
+   "rejected_on_relevance"
+  ],
+  "paper_id": null,
+  "paper_title": null,
+  "model_requests": 6,
+  "tool_calls": 4,
+  "searches": 3,
+  "result_file": "C11_r1.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "n/a",
+   "citations": "n/a",
+   "source": "n/a",
+   "metadata": "n/a",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "n/a",
+   "grounded": "n/a",
+   "note": "Berettiget afvisning: ingen kandidat handler om store sprogmodeller."
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C11",
+  "category": "no_result",
+  "run": 2,
+  "outcome": "rejected_on_relevance",
+  "expected_outcomes": [
+   "no_match",
+   "rejected_on_relevance"
+  ],
+  "paper_id": null,
+  "paper_title": null,
+  "model_requests": 6,
+  "tool_calls": 4,
+  "searches": 3,
+  "result_file": "C11_r2.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "n/a",
+   "citations": "n/a",
+   "source": "n/a",
+   "metadata": "n/a",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "n/a",
+   "grounded": "n/a",
+   "note": "Berettiget afvisning: ingen kandidat handler om store sprogmodeller."
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C11",
+  "category": "no_result",
+  "run": 3,
+  "outcome": "rejected_on_relevance",
+  "expected_outcomes": [
+   "no_match",
+   "rejected_on_relevance"
+  ],
+  "paper_id": null,
+  "paper_title": null,
+  "model_requests": 6,
+  "tool_calls": 4,
+  "searches": 3,
+  "result_file": "C11_r3.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "n/a",
+   "citations": "n/a",
+   "source": "n/a",
+   "metadata": "n/a",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "n/a",
+   "grounded": "n/a",
+   "note": "Berettiget afvisning: ingen kandidat handler om store sprogmodeller."
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C12",
+  "category": "conflicting",
+  "run": 1,
+  "outcome": "conflicting_constraints",
+  "expected_outcomes": [
+   "conflicting_constraints"
+  ],
+  "paper_id": null,
+  "paper_title": null,
+  "model_requests": 1,
+  "tool_calls": 0,
+  "searches": 0,
+  "result_file": "C12_r1.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "n/a",
+   "answer_requirements": "n/a",
+   "year": "n/a",
+   "citations": "n/a",
+   "source": "n/a",
+   "metadata": "n/a",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "n/a",
+   "explanation": "n/a",
+   "grounded": "n/a",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C12",
+  "category": "conflicting",
+  "run": 2,
+  "outcome": "conflicting_constraints",
+  "expected_outcomes": [
+   "conflicting_constraints"
+  ],
+  "paper_id": null,
+  "paper_title": null,
+  "model_requests": 1,
+  "tool_calls": 0,
+  "searches": 0,
+  "result_file": "C12_r2.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "n/a",
+   "answer_requirements": "n/a",
+   "year": "n/a",
+   "citations": "n/a",
+   "source": "n/a",
+   "metadata": "n/a",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "n/a",
+   "explanation": "n/a",
+   "grounded": "n/a",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C12",
+  "category": "conflicting",
+  "run": 3,
+  "outcome": "conflicting_constraints",
+  "expected_outcomes": [
+   "conflicting_constraints"
+  ],
+  "paper_id": null,
+  "paper_title": null,
+  "model_requests": 1,
+  "tool_calls": 0,
+  "searches": 0,
+  "result_file": "C12_r3.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "n/a",
+   "answer_requirements": "n/a",
+   "year": "n/a",
+   "citations": "n/a",
+   "source": "n/a",
+   "metadata": "n/a",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "n/a",
+   "explanation": "n/a",
+   "grounded": "n/a",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C13",
+  "category": "ambiguous",
+  "run": 1,
+  "outcome": "needs_clarification",
+  "expected_outcomes": [
+   "needs_clarification"
+  ],
+  "paper_id": null,
+  "paper_title": null,
+  "model_requests": 2,
+  "tool_calls": 0,
+  "searches": 0,
+  "result_file": "C13_r1.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "n/a",
+   "answer_requirements": "n/a",
+   "year": "n/a",
+   "citations": "n/a",
+   "source": "n/a",
+   "metadata": "n/a",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "n/a",
+   "relevance": "n/a",
+   "explanation": "n/a",
+   "grounded": "n/a",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C13",
+  "category": "ambiguous",
+  "run": 2,
+  "outcome": "needs_clarification",
+  "expected_outcomes": [
+   "needs_clarification"
+  ],
+  "paper_id": null,
+  "paper_title": null,
+  "model_requests": 1,
+  "tool_calls": 0,
+  "searches": 0,
+  "result_file": "C13_r2.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "n/a",
+   "answer_requirements": "n/a",
+   "year": "n/a",
+   "citations": "n/a",
+   "source": "n/a",
+   "metadata": "n/a",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "n/a",
+   "relevance": "n/a",
+   "explanation": "n/a",
+   "grounded": "n/a",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C13",
+  "category": "ambiguous",
+  "run": 3,
+  "outcome": "needs_clarification",
+  "expected_outcomes": [
+   "needs_clarification"
+  ],
+  "paper_id": null,
+  "paper_title": null,
+  "model_requests": 1,
+  "tool_calls": 0,
+  "searches": 0,
+  "result_file": "C13_r3.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "n/a",
+   "answer_requirements": "n/a",
+   "year": "n/a",
+   "citations": "n/a",
+   "source": "n/a",
+   "metadata": "n/a",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "n/a",
+   "relevance": "n/a",
+   "explanation": "n/a",
+   "grounded": "n/a",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C14",
+  "category": "ambiguous",
+  "run": 1,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W4286250570",
+  "paper_title": "A systematic review of artificial intelligence-based music generation: Scope, applications, and future trends",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C14_r1.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "fail",
+   "note": "N\u00e6vner GANs, LSTMs, Transformers og anvendelser i gaming og sundhed; intet af det st\u00e5r i abstract."
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C14",
+  "category": "ambiguous",
+  "run": 2,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W4386228790",
+  "paper_title": "A Survey of AI Music Generation Tools and Models",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C14_r2.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "pass",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ },
+ {
+  "case_id": "C14",
+  "category": "ambiguous",
+  "run": 3,
+  "outcome": "match",
+  "expected_outcomes": [
+   "match"
+  ],
+  "paper_id": "W4306317440",
+  "paper_title": "An Empirical Study on How People Perceive AI-generated Music",
+  "model_requests": 5,
+  "tool_calls": 3,
+  "searches": 3,
+  "result_file": "C14_r3.json",
+  "auto": {
+   "outcome": "pass",
+   "intervals": "fail",
+   "answer_requirements": "pass",
+   "year": "pass",
+   "citations": "pass",
+   "source": "pass",
+   "metadata": "pass",
+   "sentences": "n/a"
+  },
+  "manual": {
+   "topic": "pass",
+   "relevance": "pass",
+   "explanation": "pass",
+   "grounded": "pass",
+   "note": ""
+  },
+  "notes": ""
+ }
+]
