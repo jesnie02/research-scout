@@ -1,0 +1,20 @@
+[
+  {
+    "id": "C00",
+    "category": "combined",
+    "prompt": "Find a paper about graph neural networks for drug discovery published between 2019 and 2021 with at least 200 citations, and summarize its contribution in 3-4 sentences.",
+    "expected": {
+      "topic": "graph neural networks for drug discovery",
+      "year": {"min": 2019, "max": 2021},
+      "citations": {"min": 200, "max": null},
+      "answer_requirements": {
+        "task": "summarize_contribution",
+        "sentences_min": 3,
+        "sentences_max": 4
+      },
+      "outcomes": ["match"],
+      "no_match_evidence": null
+    },
+    "notes": "Format example only. Not one of the 14 evaluation cases."
+  }
+]
