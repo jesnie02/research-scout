@@ -1,0 +1,198 @@
+[
+  {
+    "id": "C01",
+    "category": "broad_topic",
+    "prompt": "Find a research paper about machine translation.",
+    "expected": {
+      "topic": "machine translation",
+      "year": {"min": null, "max": null},
+      "citations": {"min": null, "max": null},
+      "answer_requirements": null,
+      "outcomes": ["match"],
+      "no_match_evidence": null
+    },
+    "notes": "Broad topic, no numeric constraints."
+  },
+  {
+    "id": "C02",
+    "category": "narrow_topic",
+    "prompt": "Find a paper about federated learning on hospital MRI scans.",
+    "expected": {
+      "topic": "federated learning on hospital MRI scans",
+      "year": {"min": null, "max": null},
+      "citations": {"min": null, "max": null},
+      "answer_requirements": null,
+      "outcomes": ["match"],
+      "no_match_evidence": null
+    },
+    "notes": "Narrow topic, no numeric constraints. OpenAlex check 2026-11-17: 7,757 results for 'federated learning hospital MRI'."
+  },
+  {
+    "id": "C03",
+    "category": "year_before",
+    "prompt": "Find a paper about convolutional neural networks for image classification published before 2015.",
+    "expected": {
+      "topic": "convolutional neural networks for image classification",
+      "year": {"min": null, "max": 2014},
+      "citations": {"min": null, "max": null},
+      "answer_requirements": null,
+      "outcomes": ["match"],
+      "no_match_evidence": null
+    },
+    "notes": "before 2015 = year <= 2014."
+  },
+  {
+    "id": "C04",
+    "category": "year_after",
+    "prompt": "Find a paper about diffusion models for image generation published after 2021. Explain in 2-3 sentences why it is relevant.",
+    "expected": {
+      "topic": "diffusion models for image generation",
+      "year": {"min": 2022, "max": null},
+      "citations": {"min": null, "max": null},
+      "answer_requirements": {"task": "explain_relevance", "sentences_min": 2, "sentences_max": 3},
+      "outcomes": ["match"],
+      "no_match_evidence": null
+    },
+    "notes": "after 2021 = year >= 2022. Answer requirement with a length."
+  },
+  {
+    "id": "C05",
+    "category": "year_exact",
+    "prompt": "Find a paper about object detection published in 2016.",
+    "expected": {
+      "topic": "object detection",
+      "year": {"min": 2016, "max": 2016},
+      "citations": {"min": null, "max": null},
+      "answer_requirements": null,
+      "outcomes": ["match"],
+      "no_match_evidence": null
+    },
+    "notes": "Exact year."
+  },
+  {
+    "id": "C06",
+    "category": "citations_min",
+    "prompt": "Find a paper about reinforcement learning for robot control with at least 1000 citations.",
+    "expected": {
+      "topic": "reinforcement learning for robot control",
+      "year": {"min": null, "max": null},
+      "citations": {"min": 1000, "max": null},
+      "answer_requirements": null,
+      "outcomes": ["match"],
+      "no_match_evidence": null
+    },
+    "notes": "at least 1000 = citations >= 1000 (inclusive). OpenAlex check 2026-11-17: 592 results."
+  },
+  {
+    "id": "C07",
+    "category": "citations_max",
+    "prompt": "Find a paper about machine learning for crop yield prediction with fewer than 50 citations.",
+    "expected": {
+      "topic": "machine learning for crop yield prediction",
+      "year": {"min": null, "max": null},
+      "citations": {"min": null, "max": 49},
+      "answer_requirements": null,
+      "outcomes": ["match"],
+      "no_match_evidence": null
+    },
+    "notes": "fewer than 50 = citations <= 49."
+  },
+  {
+    "id": "C08",
+    "category": "citations_about",
+    "prompt": "Find a paper about query optimization in graph databases with around 300 citations.",
+    "expected": {
+      "topic": "query optimization in graph databases",
+      "year": {"min": null, "max": null},
+      "citations": {"min": 240, "max": 360},
+      "answer_requirements": null,
+      "outcomes": ["match"],
+      "no_match_evidence": null
+    },
+    "notes": "around 300 = 300 +/- 20 % = 240-360. OpenAlex check 2026-11-17: 1,673 results with this filter."
+  },
+  {
+    "id": "C09",
+    "category": "combined",
+    "prompt": "Find a paper about transformers for time series forecasting published after 2019 with more than 200 citations. Summarize its contribution in 4-6 sentences.",
+    "expected": {
+      "topic": "transformers for time series forecasting",
+      "year": {"min": 2020, "max": null},
+      "citations": {"min": 201, "max": null},
+      "answer_requirements": {"task": "summarize_contribution", "sentences_min": 4, "sentences_max": 6},
+      "outcomes": ["match"],
+      "no_match_evidence": null
+    },
+    "notes": "Year + citations + summary length, like the assignment's RAG example."
+  },
+  {
+    "id": "C10",
+    "category": "recent",
+    "prompt": "Find a recent paper about small language models running on mobile devices and explain whether it would be useful for a developer building a mobile app.",
+    "expected": {
+      "topic": "small language models on mobile devices",
+      "year": {"min": 2024, "max": 2026},
+      "citations": {"min": null, "max": null},
+      "answer_requirements": {"task": "assess_usefulness", "sentences_min": null, "sentences_max": null},
+      "outcomes": ["match"],
+      "no_match_evidence": null
+    },
+    "notes": "recent = the last 3 calendar years (2024-2026 when run in 2026). Usefulness assessment like the assignment's third example."
+  },
+  {
+    "id": "C11",
+    "category": "no_result",
+    "prompt": "Find a paper about large language models published before 2000 with more than 5000 citations.",
+    "expected": {
+      "topic": "large language models",
+      "year": {"min": null, "max": 1999},
+      "citations": {"min": 5001, "max": null},
+      "answer_requirements": null,
+      "outcomes": ["no_match", "rejected_on_relevance"],
+      "no_match_evidence": "OpenAlex 2026-11-17, filter publication_year:<2000,cited_by_count:>5000: search='large language models' gave 61 results and search='language model' gave 87; none is about large language models (top results: relational databases 1970, ELIZA 1966, UML user guide, structural equation modeling). Large language models did not exist before 2000."
+    },
+    "notes": "No suitable paper. Results exist but are off-topic, so the expected behaviour is a rejection. Changed from 'before 2005' because Bengio et al. 2003 (neural probabilistic language model, 6,366 citations) made the expectation ambiguous."
+  },
+  {
+    "id": "C12",
+    "category": "conflicting",
+    "prompt": "Find a paper about computer vision published before 2010 and after 2020.",
+    "expected": {
+      "topic": "computer vision",
+      "year": {"min": 2021, "max": 2009},
+      "citations": {"min": null, "max": null},
+      "answer_requirements": null,
+      "outcomes": ["conflicting_constraints"],
+      "no_match_evidence": null
+    },
+    "notes": "Contradictory year constraints: must be rejected before any search."
+  },
+  {
+    "id": "C13",
+    "category": "ambiguous",
+    "prompt": "Find me a good research paper.",
+    "expected": {
+      "topic": null,
+      "year": {"min": null, "max": null},
+      "citations": {"min": null, "max": null},
+      "answer_requirements": null,
+      "outcomes": ["needs_clarification"],
+      "no_match_evidence": null
+    },
+    "notes": "No topic: the agent should ask instead of guessing."
+  },
+  {
+    "id": "C14",
+    "category": "ambiguous",
+    "prompt": "I'm looking for something about AI and music from a few years ago.",
+    "expected": {
+      "topic": "artificial intelligence and music",
+      "year": {"min": null, "max": null},
+      "citations": {"min": null, "max": null},
+      "answer_requirements": null,
+      "outcomes": ["match"],
+      "no_match_evidence": null
+    },
+    "notes": "Vague but searchable. 'A few years ago' is not an explicit year, so no year limit is expected; the agent should state its interpretation in uncertainty."
+  }
+]
