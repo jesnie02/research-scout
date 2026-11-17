@@ -1,0 +1,20 @@
+{
+ "outcome": "needs_clarification",
+ "message": "What subject or topic are you interested in for a research paper?",
+ "request": {
+  "topic": null,
+  "year": [],
+  "citations": [],
+  "recent": false,
+  "answer_requirements": null,
+  "clarifying_question": "What subject or topic are you interested in for a research paper?",
+  "note": ""
+ },
+ "intervals": null,
+ "paper": null,
+ "searches": [],
+ "candidates": [],
+ "raw_responses": [],
+ "model_requests": 1,
+ "tool_calls": 0
+}

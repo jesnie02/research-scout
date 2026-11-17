@@ -1,0 +1,20 @@
+{
+ "outcome": "needs_clarification",
+ "message": "Could you specify the topic or field you're interested in?",
+ "request": {
+  "topic": null,
+  "year": [],
+  "citations": [],
+  "recent": false,
+  "answer_requirements": null,
+  "clarifying_question": "Could you specify the topic or field you're interested in?",
+  "note": ""
+ },
+ "intervals": null,
+ "paper": null,
+ "searches": [],
+ "candidates": [],
+ "raw_responses": [],
+ "model_requests": 1,
+ "tool_calls": 0
+}
