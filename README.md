@@ -249,25 +249,41 @@ En afbrudt kørsel fortsætter, hvor den slap, når den får samme `--out`.
 
 ## Resultater
 
-**Modelmåling** (10 kørsler pr. model, se [Valg af model](#valg-af-model)): Cohere Command A+ 9/10 korrekte,
-Gemini 3.5 Flash-Lite 6/10.
+### Evalueringssættet: 14 prompts × 3 kørsler
 
-**Opgavens tre eksempler** kørt med Cohere Command A+ og OpenAlex (17/11-2026). Eksempel 1 og 3 blev
-kørt to gange, før og efter vi indførte tal-tjekket og reglen om at foretrække fagfællebedømte artikler.
+Kørt 17/11-2026 med Cohere Command A+ og OpenAlex. Den fulde tabel med alle automatiske og manuelle
+bedømmelser og noter står i [`eval/results/final/RESULTS.md`](eval/results/final/RESULTS.md), og hver
+kørsel er gemt som JSON med de rå OpenAlex-svar.
 
-| Eksempel | Udfald | Valgt artikel | Krav overholdt | Søgninger | Modelkald |
-|---|---|---|---|---|---|
-| LLM-agenter til softwareudvikling, efter 2022, mindst 100 citationer (1. kørsel) | `match` | Survey fra 2024 (preprint), 364 citationer | ✓ | 2 | 4 |
-| Samme (2. kørsel) | `match` | "Demystifying LLM-Based Software Engineering Agents", 2025 (artikel), 1.049 citationer | ✓ | 3 | 5 |
-| RAG før 2021, over 500 citationer, resumé på 5-7 sætninger | `match` | Lewis m.fl. 2020, "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks", 10.269 citationer. Svar på 7 sætninger | ✓ | 2 | 4 |
-| Nyere artikel om agenter, der bruger værktøjer (1. kørsel) | `match` | "UNDO", 2026 (preprint), 0 citationer | ✓ | 3 | 5 |
-| Samme (2. kørsel) | `match` | "How are AI agents used? Evidence from 177,000 MCP tools", 2026 (preprint), 21 citationer | ✓ | 3 | 5 |
+| Mål | Resultat |
+|---|---|
+| Kørsler bestået | **30 af 42 (71 %)** |
+| Søge- eller agentfejl | 0 |
+| Forventet udfald | 42 af 42 |
+| pass^3 (alle 3 kørsler af en prompt bestået) | 8 af 14 prompts |
+| År og citationer inden for de forventede intervaller | 33 af 33 fundne artikler |
+| Gyldig kilde (ID'et slået op igen i OpenAlex) | 33 af 33 |
+| Metadata identisk med OpenAlex-data | 33 af 33 |
+| Krav til antal sætninger overholdt | 6 af 6 |
+| Krav korrekt fortolket (led A, intervaller) | 41 af 42 |
+| Modelkald | 183 i alt; 4,9 pr. kørsel, der søger, og 1-2, når agenten stopper før søgning |
+| Søgninger | 2,7 pr. kørsel, der søger (3 søgninger i 25 af 36) |
 
-I alle kørsler kom titel, forfattere, år, citationstal og link fra OpenAlex. År og citationer lå inden
-for kravene. En agent-forespørgsel brugte 4-5 modelkald og 2-3 søgninger.
+Afvisninger, opklarende spørgsmål og modstridende krav (C11, C12, C13) blev håndteret korrekt i alle 9 kørsler.
 
-**Evalueringssættet** (14 prompts × 3 kørsler) køres som beskrevet under [Kør evalueringen](#kør-evalueringen).
-Den fulde tabel med automatiske og manuelle bedømmelser skrives til `eval/results/final/RESULTS.md`.
+**De 12 kørsler, der ikke bestod:**
+
+| Årsag | Kørsler |
+|---|---|
+| Svarteksten indeholdt påstande, der ikke står i artiklens abstract | 8 (C02 × 3, C04, C05, C09 × 2, C14) |
+| Tvivlsom relevans: en artikel om keyword-søgning på RDF-data valgt til "query optimization in graph databases" | 3 (C08) |
+| Agenten fortolkede "a few years ago" som en årsgrænse (≤ 2022), som forespørgslen ikke nævner | 1 (C14) |
+
+### Opgavens tre eksempler
+
+Kørt under udviklingen (17/11-2026). Alle gav `match` med en relevant artikel, der opfyldte kravene,
+fx Lewis m.fl. 2020, "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks" (10.269
+citationer, resumé på 7 sætninger) til RAG-eksemplet. Hver brugte 2-3 søgninger og 4-5 modelkald.
 
 ## Refleksion
 
