@@ -1,7 +1,7 @@
 """Typed data shared by the agent, the search tool and the evaluation."""
 
 from datetime import datetime
-from typing import Literal, Self
+from typing import Any, Literal, Self
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
@@ -84,3 +84,73 @@ class Paper(BaseModel):
     abstract: str | None
     abstract_truncated: bool
     retrieved_at: datetime
+
+
+Outcome = Literal[
+    "match",
+    "no_match",
+    "rejected_on_relevance",
+    "needs_clarification",
+    "conflicting_constraints",
+    "search_error",
+    "agent_error",
+]
+
+
+class ExtractedRequest(BaseModel):
+    """Agent A's reading of the user's request. Python turns it into intervals."""
+
+    model_config = ConfigDict(extra="forbid")
+    topic: str | None = None
+    year: list[YearConstraint] = Field(default_factory=list)
+    citations: list[CitationConstraint] = Field(default_factory=list)
+    recent: bool = False
+    answer_requirements: AnswerRequirements | None = None
+    clarifying_question: str | None = None
+    note: str = ""
+
+
+class Selection(BaseModel):
+    """Agent B's choice: an ID from the stored candidates (or null) plus its own answer text."""
+
+    model_config = ConfigDict(extra="forbid")
+    openalex_id: str | None
+    answer: str
+    uncertainty: str = ""
+
+
+class SearchLog(BaseModel):
+    query: str
+    filter: str = ""
+    total_count: int | None = None
+    new_ids: list[str] = Field(default_factory=list)
+    rejected: int = 0
+    already_known: int = 0
+    error: str | None = None
+
+
+class PaperAnswer(BaseModel):
+    """The final answer. Every field except answer/uncertainty is copied from OpenAlex data."""
+
+    title: str
+    authors: list[str]
+    year: int
+    citations: int | None
+    citation_source: str
+    url: str
+    openalex_url: str
+    answer: str
+    uncertainty: str
+
+
+class ScoutResult(BaseModel):
+    outcome: Outcome
+    message: str
+    request: ExtractedRequest | None = None
+    intervals: Intervals | None = None
+    paper: PaperAnswer | None = None
+    searches: list[SearchLog] = Field(default_factory=list)
+    candidates: list[Paper] = Field(default_factory=list)
+    raw_responses: list[dict[str, Any]] = Field(default_factory=list)
+    model_requests: int = 0
+    tool_calls: int = 0
