@@ -1,0 +1,4724 @@
+{
+ "meta": {
+  "count": 899,
+  "db_response_time_ms": 33,
+  "page": 1,
+  "per_page": 8,
+  "groups_count": null,
+  "x_query": {
+   "oql": "get works before 2021 with (retrieval-augmented generation) in the title, abstract, or full text where citation count is above 500",
+   "x_new_oql": "get works before 2021 with (retrieval-augmented generation) in the title, abstract, or full text where citation count is above 500",
+   "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+     {
+      "column_id": "cited_by_count",
+      "value": 500,
+      "operator": ">"
+     },
+     {
+      "column_id": "fulltext.search",
+      "value": "retrieval-augmented generation",
+      "operator": "has"
+     },
+     {
+      "column_id": "publication_year",
+      "value": 2021,
+      "operator": "<"
+     }
+    ]
+   },
+   "url": "/works?filter=cited_by_count:%3E500,fulltext.search:retrieval-augmented generation,publication_year:%3C2021&per_page=8",
+   "order": "best matches first",
+   "order_default": true
+  },
+  "cost_usd": 0.001
+ },
+ "results": [
+  {
+   "id": "https://openalex.org/W3027879771",
+   "doi": "https://doi.org/10.48550/arxiv.2005.11401",
+   "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+   "publication_year": 2020,
+   "cited_by_count": 10269,
+   "type": "preprint",
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5063377058",
+      "display_name": "Patrick Lewis",
+      "orcid": "https://orcid.org/0000-0002-2192-9543",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-2192-9543"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210114444",
+       "display_name": "Meta (United States)",
+       "ror": "https://ror.org/01zbnvs85",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210114444"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I45129253",
+       "display_name": "University College London",
+       "ror": "https://ror.org/02jx3x895",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I124357947",
+        "https://openalex.org/I45129253"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I57206974",
+       "display_name": "New York University",
+       "ror": "https://ror.org/0190ak572",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ],
+     "countries": [
+      "GB",
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Lewis, Patrick",
+     "raw_affiliation_strings": [
+      "Facebook AI Research ; University College London ; New York University ;"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Facebook AI Research ; University College London ; New York University ;",
+       "institution_ids": [
+        "https://openalex.org/I4210114444",
+        "https://openalex.org/I45129253",
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5091112967",
+      "display_name": "Ethan Perez",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210114444",
+       "display_name": "Meta (United States)",
+       "ror": "https://ror.org/01zbnvs85",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210114444"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I45129253",
+       "display_name": "University College London",
+       "ror": "https://ror.org/02jx3x895",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I124357947",
+        "https://openalex.org/I45129253"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I57206974",
+       "display_name": "New York University",
+       "ror": "https://ror.org/0190ak572",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ],
+     "countries": [
+      "GB",
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Perez, Ethan",
+     "raw_affiliation_strings": [
+      "Facebook AI Research ; University College London ; New York University ;"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Facebook AI Research ; University College London ; New York University ;",
+       "institution_ids": [
+        "https://openalex.org/I4210114444",
+        "https://openalex.org/I45129253",
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5055847471",
+      "display_name": "Aleksandra Piktus",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210114444",
+       "display_name": "Meta (United States)",
+       "ror": "https://ror.org/01zbnvs85",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210114444"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I45129253",
+       "display_name": "University College London",
+       "ror": "https://ror.org/02jx3x895",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I124357947",
+        "https://openalex.org/I45129253"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I57206974",
+       "display_name": "New York University",
+       "ror": "https://ror.org/0190ak572",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ],
+     "countries": [
+      "GB",
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Piktus, Aleksandra",
+     "raw_affiliation_strings": [
+      "Facebook AI Research ; University College London ; New York University ;"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Facebook AI Research ; University College London ; New York University ;",
+       "institution_ids": [
+        "https://openalex.org/I4210114444",
+        "https://openalex.org/I45129253",
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5093091829",
+      "display_name": "Fabio Petroni",
+      "orcid": "https://orcid.org/0009-0005-5996-9830",
+      "observed_orcids": [
+       "https://orcid.org/0009-0005-5996-9830"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210114444",
+       "display_name": "Meta (United States)",
+       "ror": "https://ror.org/01zbnvs85",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210114444"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I45129253",
+       "display_name": "University College London",
+       "ror": "https://ror.org/02jx3x895",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I124357947",
+        "https://openalex.org/I45129253"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I57206974",
+       "display_name": "New York University",
+       "ror": "https://ror.org/0190ak572",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ],
+     "countries": [
+      "GB",
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Petroni, Fabio",
+     "raw_affiliation_strings": [
+      "Facebook AI Research ; University College London ; New York University ;"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Facebook AI Research ; University College London ; New York University ;",
+       "institution_ids": [
+        "https://openalex.org/I4210114444",
+        "https://openalex.org/I45129253",
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5032508066",
+      "display_name": "Vladimir Karpukhin",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210114444",
+       "display_name": "Meta (United States)",
+       "ror": "https://ror.org/01zbnvs85",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210114444"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I45129253",
+       "display_name": "University College London",
+       "ror": "https://ror.org/02jx3x895",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I124357947",
+        "https://openalex.org/I45129253"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I57206974",
+       "display_name": "New York University",
+       "ror": "https://ror.org/0190ak572",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ],
+     "countries": [
+      "GB",
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Karpukhin, Vladimir",
+     "raw_affiliation_strings": [
+      "Facebook AI Research ; University College London ; New York University ;"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Facebook AI Research ; University College London ; New York University ;",
+       "institution_ids": [
+        "https://openalex.org/I4210114444",
+        "https://openalex.org/I45129253",
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5075834790",
+      "display_name": "Naman Goyal",
+      "orcid": "https://orcid.org/0000-0002-7565-4303",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-7565-4303"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210114444",
+       "display_name": "Meta (United States)",
+       "ror": "https://ror.org/01zbnvs85",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210114444"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I45129253",
+       "display_name": "University College London",
+       "ror": "https://ror.org/02jx3x895",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I124357947",
+        "https://openalex.org/I45129253"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I57206974",
+       "display_name": "New York University",
+       "ror": "https://ror.org/0190ak572",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ],
+     "countries": [
+      "GB",
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Goyal, Naman",
+     "raw_affiliation_strings": [
+      "Facebook AI Research ; University College London ; New York University ;"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Facebook AI Research ; University College London ; New York University ;",
+       "institution_ids": [
+        "https://openalex.org/I4210114444",
+        "https://openalex.org/I45129253",
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5004147468",
+      "display_name": "Heinrich K\u00fcttler",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "K\u00fcttler, Heinrich",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5004412943",
+      "display_name": "Mike Lewis",
+      "orcid": "https://orcid.org/0000-0003-0679-6612",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-0679-6612"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210111288",
+       "display_name": "Meta (United Kingdom)",
+       "ror": "https://ror.org/020ye1821",
+       "country_code": "GB",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210111288",
+        "https://openalex.org/I4210114444"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210114444",
+       "display_name": "Meta (United States)",
+       "ror": "https://ror.org/01zbnvs85",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210114444"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I45129253",
+       "display_name": "University College London",
+       "ror": "https://ror.org/02jx3x895",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I124357947",
+        "https://openalex.org/I45129253"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I57206974",
+       "display_name": "New York University",
+       "ror": "https://ror.org/0190ak572",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ],
+     "countries": [
+      "GB",
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Lewis, Mike",
+     "raw_affiliation_strings": [
+      "Facebook AI Research ; University College London ; New York University ;",
+      "Facebook"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Facebook AI Research ; University College London ; New York University ;",
+       "institution_ids": [
+        "https://openalex.org/I4210114444",
+        "https://openalex.org/I45129253",
+        "https://openalex.org/I57206974"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Facebook",
+       "institution_ids": [
+        "https://openalex.org/I4210111288",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5066873932",
+      "display_name": "Wen-tau Yih",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210114444",
+       "display_name": "Meta (United States)",
+       "ror": "https://ror.org/01zbnvs85",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210114444"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I45129253",
+       "display_name": "University College London",
+       "ror": "https://ror.org/02jx3x895",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I124357947",
+        "https://openalex.org/I45129253"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I57206974",
+       "display_name": "New York University",
+       "ror": "https://ror.org/0190ak572",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ],
+     "countries": [
+      "GB",
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Yih, Wen-tau",
+     "raw_affiliation_strings": [
+      "Facebook AI Research ; University College London ; New York University ;"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Facebook AI Research ; University College London ; New York University ;",
+       "institution_ids": [
+        "https://openalex.org/I4210114444",
+        "https://openalex.org/I45129253",
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5079315903",
+      "display_name": "Tim Rockt\u00e4schel",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Rockt\u00e4schel, Tim",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5101404695",
+      "display_name": "Sebastian Riedel",
+      "orcid": "https://orcid.org/0000-0002-3655-2486",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-3655-2486"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210114444",
+       "display_name": "Meta (United States)",
+       "ror": "https://ror.org/01zbnvs85",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210114444"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I45129253",
+       "display_name": "University College London",
+       "ror": "https://ror.org/02jx3x895",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I124357947",
+        "https://openalex.org/I45129253"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I57206974",
+       "display_name": "New York University",
+       "ror": "https://ror.org/0190ak572",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ],
+     "countries": [
+      "GB",
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Riedel, Sebastian",
+     "raw_affiliation_strings": [
+      "Facebook AI Research ; University College London ; New York University ;"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Facebook AI Research ; University College London ; New York University ;",
+       "institution_ids": [
+        "https://openalex.org/I4210114444",
+        "https://openalex.org/I45129253",
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5016956470",
+      "display_name": "Douwe Kiela",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210114444",
+       "display_name": "Meta (United States)",
+       "ror": "https://ror.org/01zbnvs85",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210114444"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I45129253",
+       "display_name": "University College London",
+       "ror": "https://ror.org/02jx3x895",
+       "country_code": "GB",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I124357947",
+        "https://openalex.org/I45129253"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I57206974",
+       "display_name": "New York University",
+       "ror": "https://ror.org/0190ak572",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ],
+     "countries": [
+      "GB",
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Kiela, Douwe",
+     "raw_affiliation_strings": [
+      "Facebook AI Research ; University College London ; New York University ;"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Facebook AI Research ; University College London ; New York University ;",
+       "institution_ids": [
+        "https://openalex.org/I4210114444",
+        "https://openalex.org/I45129253",
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ]
+    }
+   ],
+   "abstract_inverted_index": {
+    "Large": [
+     0
+    ],
+    "pre-trained": [
+     1,
+     102,
+     120,
+     137
+    ],
+    "language": [
+     2,
+     108,
+     199,
+     213
+    ],
+    "models": [
+     3,
+     63,
+     99,
+     113,
+     171,
+     193,
+     206
+    ],
+    "have": [
+     4,
+     78
+    ],
+    "been": [
+     5,
+     81
+    ],
+    "shown": [
+     6
+    ],
+    "to": [
+     7,
+     27,
+     69
+    ],
+    "store": [
+     8
+    ],
+    "factual": [
+     9,
+     212
+    ],
+    "knowledge": [
+     10,
+     32,
+     57
+    ],
+    "in": [
+     11
+    ],
+    "their": [
+     12,
+     25,
+     41,
+     51,
+     55
+    ],
+    "parameters,": [
+     13
+    ],
+    "and": [
+     14,
+     29,
+     36,
+     53,
+     104,
+     123,
+     168,
+     180,
+     194,
+     211
+    ],
+    "achieve": [
+     15
+    ],
+    "state-of-the-art": [
+     16,
+     183,
+     216
+    ],
+    "results": [
+     17
+    ],
+    "when": [
+     18
+    ],
+    "fine-tuned": [
+     19
+    ],
+    "on": [
+     20,
+     38,
+     148,
+     172,
+     184
+    ],
+    "downstream": [
+     21,
+     86
+    ],
+    "NLP": [
+     22,
+     178
+    ],
+    "tasks.": [
+     23,
+     87
+    ],
+    "However,": [
+     24
+    ],
+    "ability": [
+     26
+    ],
+    "access": [
+     28,
+     67
+    ],
+    "precisely": [
+     30
+    ],
+    "manipulate": [
+     31
+    ],
+    "is": [
+     33,
+     118,
+     127
+    ],
+    "still": [
+     34
+    ],
+    "limited,": [
+     35
+    ],
+    "hence": [
+     37
+    ],
+    "knowledge-intensive": [
+     39,
+     177
+    ],
+    "tasks,": [
+     40,
+     189,
+     201
+    ],
+    "performance": [
+     42
+    ],
+    "lags": [
+     43
+    ],
+    "behind": [
+     44
+    ],
+    "task-specific": [
+     45,
+     195
+    ],
+    "architectures.": [
+     46,
+     197
+    ],
+    "Additionally,": [
+     47
+    ],
+    "providing": [
+     48
+    ],
+    "provenance": [
+     49
+    ],
+    "for": [
+     50,
+     84,
+     94,
+     107
+    ],
+    "decisions": [
+     52
+    ],
+    "updating": [
+     54
+    ],
+    "world": [
+     56
+    ],
+    "remain": [
+     58
+    ],
+    "open": [
+     59,
+     186
+    ],
+    "research": [
+     60
+    ],
+    "problems.": [
+     61
+    ],
+    "Pre-trained": [
+     62
+    ],
+    "with": [
+     64,
+     135
+    ],
+    "a": [
+     65,
+     90,
+     119,
+     128,
+     136,
+     173,
+     215
+    ],
+    "differentiable": [
+     66
+    ],
+    "mechanism": [
+     68
+    ],
+    "explicit": [
+     70
+    ],
+    "non-parametric": [
+     71,
+     105,
+     125
+    ],
+    "memory": [
+     72,
+     106,
+     117,
+     126
+    ],
+    "can": [
+     73,
+     160
+    ],
+    "overcome": [
+     74
+    ],
+    "this": [
+     75
+    ],
+    "issue,": [
+     76
+    ],
+    "but": [
+     77
+    ],
+    "so": [
+     79
+    ],
+    "far": [
+     80
+    ],
+    "only": [
+     82
+    ],
+    "investigated": [
+     83
+    ],
+    "extractive": [
+     85
+    ],
+    "We": [
+     88,
+     110,
+     140,
+     166
+    ],
+    "explore": [
+     89
+    ],
+    "general-purpose": [
+     91
+    ],
+    "fine-tuning": [
+     92
+    ],
+    "recipe": [
+     93
+    ],
+    "retrieval-augmented": [
+     95
+    ],
+    "generation": [
+     96,
+     200
+    ],
+    "(RAG)": [
+     97
+    ],
+    "--": [
+     98
+    ],
+    "which": [
+     100,
+     146
+    ],
+    "combine": [
+     101
+    ],
+    "parametric": [
+     103,
+     116,
+     191
+    ],
+    "generation.": [
+     109
+    ],
+    "introduce": [
+     111
+    ],
+    "RAG": [
+     112,
+     143,
+     205
+    ],
+    "where": [
+     114
+    ],
+    "the": [
+     115,
+     124,
+     149,
+     154,
+     158,
+     182
+    ],
+    "seq2seq": [
+     121,
+     192,
+     218
+    ],
+    "model": [
+     122
+    ],
+    "dense": [
+     129
+    ],
+    "vector": [
+     130
+    ],
+    "index": [
+     131
+    ],
+    "of": [
+     132,
+     176
+    ],
+    "Wikipedia,": [
+     133
+    ],
+    "accessed": [
+     134
+    ],
+    "neural": [
+     138
+    ],
+    "retriever.": [
+     139
+    ],
+    "compare": [
+     141
+    ],
+    "two": [
+     142
+    ],
+    "formulations,": [
+     144
+    ],
+    "one": [
+     145
+    ],
+    "conditions": [
+     147
+    ],
+    "same": [
+     150
+    ],
+    "retrieved": [
+     151
+    ],
+    "passages": [
+     152,
+     163
+    ],
+    "across": [
+     153
+    ],
+    "whole": [
+     155
+    ],
+    "generated": [
+     156
+    ],
+    "sequence,": [
+     157
+    ],
+    "other": [
+     159
+    ],
+    "use": [
+     161
+    ],
+    "different": [
+     162
+    ],
+    "per": [
+     164
+    ],
+    "token.": [
+     165
+    ],
+    "fine-tune": [
+     167
+    ],
+    "evaluate": [
+     169
+    ],
+    "our": [
+     170
+    ],
+    "wide": [
+     174
+    ],
+    "range": [
+     175
+    ],
+    "tasks": [
+     179
+    ],
+    "set": [
+     181
+    ],
+    "three": [
+     185
+    ],
+    "domain": [
+     187
+    ],
+    "QA": [
+     188
+    ],
+    "outperforming": [
+     190
+    ],
+    "retrieve-and-extract": [
+     196
+    ],
+    "For": [
+     198
+    ],
+    "we": [
+     202
+    ],
+    "find": [
+     203
+    ],
+    "that": [
+     204
+    ],
+    "generate": [
+     207
+    ],
+    "more": [
+     208
+    ],
+    "specific,": [
+     209
+    ],
+    "diverse": [
+     210
+    ],
+    "than": [
+     214
+    ],
+    "parametric-only": [
+     217
+    ],
+    "baseline.": [
+     219
+    ]
+   }
+  },
+  {
+   "id": "https://openalex.org/W3098425262",
+   "doi": null,
+   "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+   "publication_year": 2020,
+   "cited_by_count": 19234,
+   "type": "conference-paper",
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5063377058",
+      "display_name": "Patrick Lewis",
+      "orcid": "https://orcid.org/0000-0002-2192-9543",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-2192-9543"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2252078561",
+       "display_name": "Meta (Israel)",
+       "ror": "https://ror.org/02388em19",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ],
+     "countries": [
+      "IL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Patrick Lewis",
+     "raw_affiliation_strings": [
+      "Meta (Israel), Tel Aviv, Israel"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-2192-9543",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+       "institution_ids": [
+        "https://openalex.org/I2252078561"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5091112967",
+      "display_name": "Ethan Perez",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I57206974",
+       "display_name": "New York University",
+       "ror": "https://ror.org/0190ak572",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Ethan Perez",
+     "raw_affiliation_strings": [
+      "New York University, New York, United States"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "New York University, New York, United States",
+       "institution_ids": [
+        "https://openalex.org/I57206974"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5055847471",
+      "display_name": "Aleksandra Piktus",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2252078561",
+       "display_name": "Meta (Israel)",
+       "ror": "https://ror.org/02388em19",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ],
+     "countries": [
+      "IL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Aleksandra Piktus",
+     "raw_affiliation_strings": [
+      "Meta (Israel), Tel Aviv, Israel"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+       "institution_ids": [
+        "https://openalex.org/I2252078561"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5093091829",
+      "display_name": "Fabio Petroni",
+      "orcid": "https://orcid.org/0009-0005-5996-9830",
+      "observed_orcids": [
+       "https://orcid.org/0009-0005-5996-9830"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2252078561",
+       "display_name": "Meta (Israel)",
+       "ror": "https://ror.org/02388em19",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ],
+     "countries": [
+      "IL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Fabio Petroni",
+     "raw_affiliation_strings": [
+      "Meta (Israel), Tel Aviv, Israel"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+       "institution_ids": [
+        "https://openalex.org/I2252078561"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5032508066",
+      "display_name": "Vladimir Karpukhin",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2252078561",
+       "display_name": "Meta (Israel)",
+       "ror": "https://ror.org/02388em19",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ],
+     "countries": [
+      "IL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Vladimir Karpukhin",
+     "raw_affiliation_strings": [
+      "Meta (Israel), Tel Aviv, Israel"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+       "institution_ids": [
+        "https://openalex.org/I2252078561"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5075834790",
+      "display_name": "Naman Goyal",
+      "orcid": "https://orcid.org/0000-0002-7565-4303",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-7565-4303"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2252078561",
+       "display_name": "Meta (Israel)",
+       "ror": "https://ror.org/02388em19",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ],
+     "countries": [
+      "IL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Naman Goyal",
+     "raw_affiliation_strings": [
+      "Meta (Israel), Tel Aviv, Israel"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-7565-4303",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+       "institution_ids": [
+        "https://openalex.org/I2252078561"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5004147468",
+      "display_name": "Heinrich K\u00fcttler",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2252078561",
+       "display_name": "Meta (Israel)",
+       "ror": "https://ror.org/02388em19",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ],
+     "countries": [
+      "IL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Heinrich K\u00fcttler",
+     "raw_affiliation_strings": [
+      "Meta (Israel), Tel Aviv, Israel"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+       "institution_ids": [
+        "https://openalex.org/I2252078561"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5004412943",
+      "display_name": "Mike Lewis",
+      "orcid": "https://orcid.org/0000-0003-0679-6612",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-0679-6612"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2252078561",
+       "display_name": "Meta (Israel)",
+       "ror": "https://ror.org/02388em19",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ],
+     "countries": [
+      "IL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mike Lewis",
+     "raw_affiliation_strings": [
+      "Meta (Israel), Tel Aviv, Israel"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-0679-6612",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+       "institution_ids": [
+        "https://openalex.org/I2252078561"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5066873932",
+      "display_name": "Wen-tau Yih",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2252078561",
+       "display_name": "Meta (Israel)",
+       "ror": "https://ror.org/02388em19",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ],
+     "countries": [
+      "IL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Wen-tau Yih",
+     "raw_affiliation_strings": [
+      "Meta (Israel), Tel Aviv, Israel"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+       "institution_ids": [
+        "https://openalex.org/I2252078561"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5079315903",
+      "display_name": "Tim Rockt\u00e4schel",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2252078561",
+       "display_name": "Meta (Israel)",
+       "ror": "https://ror.org/02388em19",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ],
+     "countries": [
+      "IL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Tim Rockt\u00e4schel",
+     "raw_affiliation_strings": [
+      "Meta (Israel), Tel Aviv, Israel"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+       "institution_ids": [
+        "https://openalex.org/I2252078561"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5101404695",
+      "display_name": "Sebastian Riedel",
+      "orcid": "https://orcid.org/0000-0002-3655-2486",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-3655-2486"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2252078561",
+       "display_name": "Meta (Israel)",
+       "ror": "https://ror.org/02388em19",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ],
+     "countries": [
+      "IL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Sebastian Riedel",
+     "raw_affiliation_strings": [
+      "Meta (Israel), Tel Aviv, Israel"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-3655-2486",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+       "institution_ids": [
+        "https://openalex.org/I2252078561"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5016956470",
+      "display_name": "Douwe Kiela",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2252078561",
+       "display_name": "Meta (Israel)",
+       "ror": "https://ror.org/02388em19",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ],
+     "countries": [
+      "IL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Douwe Kiela",
+     "raw_affiliation_strings": [
+      "Meta (Israel), Tel Aviv, Israel"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+       "institution_ids": [
+        "https://openalex.org/I2252078561"
+       ]
+      }
+     ]
+    }
+   ],
+   "abstract_inverted_index": {
+    "Large": [
+     0
+    ],
+    "pre-trained": [
+     1,
+     102,
+     120,
+     137
+    ],
+    "language": [
+     2,
+     108,
+     199,
+     213
+    ],
+    "models": [
+     3,
+     63,
+     99,
+     113,
+     171,
+     193,
+     206
+    ],
+    "have": [
+     4,
+     78
+    ],
+    "been": [
+     5,
+     81
+    ],
+    "shown": [
+     6
+    ],
+    "to": [
+     7,
+     27,
+     69
+    ],
+    "store": [
+     8
+    ],
+    "factual": [
+     9,
+     212
+    ],
+    "knowledge": [
+     10,
+     32,
+     57
+    ],
+    "in": [
+     11
+    ],
+    "their": [
+     12,
+     25,
+     41,
+     51,
+     55
+    ],
+    "parameters,": [
+     13
+    ],
+    "and": [
+     14,
+     29,
+     36,
+     53,
+     104,
+     123,
+     168,
+     180,
+     194,
+     211
+    ],
+    "achieve": [
+     15
+    ],
+    "state-of-the-art": [
+     16,
+     183,
+     216
+    ],
+    "results": [
+     17
+    ],
+    "when": [
+     18
+    ],
+    "fine-tuned": [
+     19
+    ],
+    "on": [
+     20,
+     38,
+     148,
+     172,
+     184
+    ],
+    "downstream": [
+     21,
+     86
+    ],
+    "NLP": [
+     22,
+     178
+    ],
+    "tasks.": [
+     23,
+     87
+    ],
+    "However,": [
+     24
+    ],
+    "ability": [
+     26
+    ],
+    "access": [
+     28,
+     67
+    ],
+    "precisely": [
+     30
+    ],
+    "manipulate": [
+     31
+    ],
+    "is": [
+     33,
+     118,
+     127
+    ],
+    "still": [
+     34
+    ],
+    "limited,": [
+     35
+    ],
+    "hence": [
+     37
+    ],
+    "knowledge-intensive": [
+     39,
+     177
+    ],
+    "tasks,": [
+     40,
+     189,
+     201
+    ],
+    "performance": [
+     42
+    ],
+    "lags": [
+     43
+    ],
+    "behind": [
+     44
+    ],
+    "task-specific": [
+     45,
+     195
+    ],
+    "architectures.": [
+     46,
+     197
+    ],
+    "Additionally,": [
+     47
+    ],
+    "providing": [
+     48
+    ],
+    "provenance": [
+     49
+    ],
+    "for": [
+     50,
+     84,
+     94,
+     107
+    ],
+    "decisions": [
+     52
+    ],
+    "updating": [
+     54
+    ],
+    "world": [
+     56
+    ],
+    "remain": [
+     58
+    ],
+    "open": [
+     59,
+     186
+    ],
+    "research": [
+     60
+    ],
+    "problems.": [
+     61
+    ],
+    "Pre-trained": [
+     62
+    ],
+    "with": [
+     64,
+     135
+    ],
+    "a": [
+     65,
+     90,
+     119,
+     128,
+     136,
+     173,
+     215
+    ],
+    "differentiable": [
+     66
+    ],
+    "mechanism": [
+     68
+    ],
+    "explicit": [
+     70
+    ],
+    "non-parametric": [
+     71,
+     105,
+     125
+    ],
+    "memory": [
+     72,
+     106,
+     117,
+     126
+    ],
+    "can": [
+     73,
+     160
+    ],
+    "overcome": [
+     74
+    ],
+    "this": [
+     75
+    ],
+    "issue,": [
+     76
+    ],
+    "but": [
+     77
+    ],
+    "so": [
+     79
+    ],
+    "far": [
+     80
+    ],
+    "only": [
+     82
+    ],
+    "investigated": [
+     83
+    ],
+    "extractive": [
+     85
+    ],
+    "We": [
+     88,
+     110,
+     140,
+     166
+    ],
+    "explore": [
+     89
+    ],
+    "general-purpose": [
+     91
+    ],
+    "fine-tuning": [
+     92
+    ],
+    "recipe": [
+     93
+    ],
+    "retrieval-augmented": [
+     95
+    ],
+    "generation": [
+     96,
+     200
+    ],
+    "(RAG)": [
+     97
+    ],
+    "--": [
+     98
+    ],
+    "which": [
+     100,
+     146
+    ],
+    "combine": [
+     101
+    ],
+    "parametric": [
+     103,
+     116,
+     191
+    ],
+    "generation.": [
+     109
+    ],
+    "introduce": [
+     111
+    ],
+    "RAG": [
+     112,
+     143,
+     205
+    ],
+    "where": [
+     114
+    ],
+    "the": [
+     115,
+     124,
+     149,
+     154,
+     158,
+     182
+    ],
+    "seq2seq": [
+     121,
+     192,
+     218
+    ],
+    "model": [
+     122
+    ],
+    "dense": [
+     129
+    ],
+    "vector": [
+     130
+    ],
+    "index": [
+     131
+    ],
+    "of": [
+     132,
+     176
+    ],
+    "Wikipedia,": [
+     133
+    ],
+    "accessed": [
+     134
+    ],
+    "neural": [
+     138
+    ],
+    "retriever.": [
+     139
+    ],
+    "compare": [
+     141
+    ],
+    "two": [
+     142
+    ],
+    "formulations,": [
+     144
+    ],
+    "one": [
+     145
+    ],
+    "conditions": [
+     147
+    ],
+    "same": [
+     150
+    ],
+    "retrieved": [
+     151
+    ],
+    "passages": [
+     152,
+     163
+    ],
+    "across": [
+     153
+    ],
+    "whole": [
+     155
+    ],
+    "generated": [
+     156
+    ],
+    "sequence,": [
+     157
+    ],
+    "other": [
+     159
+    ],
+    "use": [
+     161
+    ],
+    "different": [
+     162
+    ],
+    "per": [
+     164
+    ],
+    "token.": [
+     165
+    ],
+    "fine-tune": [
+     167
+    ],
+    "evaluate": [
+     169
+    ],
+    "our": [
+     170
+    ],
+    "wide": [
+     174
+    ],
+    "range": [
+     175
+    ],
+    "tasks": [
+     179
+    ],
+    "set": [
+     181
+    ],
+    "three": [
+     185
+    ],
+    "domain": [
+     187
+    ],
+    "QA": [
+     188
+    ],
+    "outperforming": [
+     190
+    ],
+    "retrieve-and-extract": [
+     196
+    ],
+    "For": [
+     198
+    ],
+    "we": [
+     202
+    ],
+    "find": [
+     203
+    ],
+    "that": [
+     204
+    ],
+    "generate": [
+     207
+    ],
+    "more": [
+     208
+    ],
+    "specific,": [
+     209
+    ],
+    "diverse": [
+     210
+    ],
+    "than": [
+     214
+    ],
+    "parametric-only": [
+     217
+    ],
+    "baseline.": [
+     219
+    ]
+   }
+  },
+  {
+   "id": "https://openalex.org/W3007672467",
+   "doi": "https://doi.org/10.48550/arxiv.2002.08909",
+   "title": "REALM: Retrieval-Augmented Language Model Pre-Training",
+   "publication_year": 2020,
+   "cited_by_count": 1330,
+   "type": "preprint",
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5076669462",
+      "display_name": "Kelvin Guu",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1291425158",
+       "display_name": "Google (United States)",
+       "ror": "https://ror.org/00njsd438",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I1291425158",
+        "https://openalex.org/I4210128969"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Guu, Kelvin",
+     "raw_affiliation_strings": [
+      "Google,,,,,"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Google,,,,,",
+       "institution_ids": [
+        "https://openalex.org/I1291425158"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5081862885",
+      "display_name": "Kenton Lee",
+      "orcid": "https://orcid.org/0000-0002-9534-5970",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-9534-5970"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1291425158",
+       "display_name": "Google (United States)",
+       "ror": "https://ror.org/00njsd438",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I1291425158",
+        "https://openalex.org/I4210128969"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Lee, Kenton",
+     "raw_affiliation_strings": [
+      "Google,,,,,"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Google,,,,,",
+       "institution_ids": [
+        "https://openalex.org/I1291425158"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5078389579",
+      "display_name": "Zora Tung",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1291425158",
+       "display_name": "Google (United States)",
+       "ror": "https://ror.org/00njsd438",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I1291425158",
+        "https://openalex.org/I4210128969"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Tung, Zora",
+     "raw_affiliation_strings": [
+      "Google,,,,,"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Google,,,,,",
+       "institution_ids": [
+        "https://openalex.org/I1291425158"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5035867340",
+      "display_name": "Panupong Pasupat",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1291425158",
+       "display_name": "Google (United States)",
+       "ror": "https://ror.org/00njsd438",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I1291425158",
+        "https://openalex.org/I4210128969"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Pasupat, Panupong",
+     "raw_affiliation_strings": [
+      "Google,,,,,"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Google,,,,,",
+       "institution_ids": [
+        "https://openalex.org/I1291425158"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": null,
+      "display_name": "Chang, Ming-Wei",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1291425158",
+       "display_name": "Google (United States)",
+       "ror": "https://ror.org/00njsd438",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I1291425158",
+        "https://openalex.org/I4210128969"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Chang, Ming-Wei",
+     "raw_affiliation_strings": [
+      "Google,,,,,"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Google,,,,,",
+       "institution_ids": [
+        "https://openalex.org/I1291425158"
+       ]
+      }
+     ]
+    }
+   ],
+   "abstract_inverted_index": {
+    "Language": [
+     0,
+     127
+    ],
+    "model": [
+     1,
+     55,
+     65
+    ],
+    "pre-training": [
+     2,
+     56,
+     129
+    ],
+    "has": [
+     3
+    ],
+    "been": [
+     4
+    ],
+    "shown": [
+     5
+    ],
+    "to": [
+     6,
+     38,
+     66,
+     92
+    ],
+    "capture": [
+     7,
+     43
+    ],
+    "a": [
+     8,
+     32,
+     46,
+     58,
+     73,
+     95,
+     113,
+     168
+    ],
+    "surprising": [
+     9
+    ],
+    "amount": [
+     10
+    ],
+    "of": [
+     11,
+     31,
+     119,
+     125,
+     137
+    ],
+    "world": [
+     12
+    ],
+    "knowledge,": [
+     13
+    ],
+    "crucial": [
+     14
+    ],
+    "for": [
+     15,
+     147
+    ],
+    "NLP": [
+     16
+    ],
+    "tasks": [
+     17
+    ],
+    "such": [
+     18,
+     76,
+     94,
+     179
+    ],
+    "as": [
+     19,
+     77,
+     106,
+     180
+    ],
+    "question": [
+     20
+    ],
+    "answering.": [
+     21
+    ],
+    "However,": [
+     22
+    ],
+    "this": [
+     23
+    ],
+    "knowledge": [
+     24,
+     44,
+     60,
+     96,
+     152
+    ],
+    "is": [
+     25
+    ],
+    "stored": [
+     26
+    ],
+    "implicitly": [
+     27
+    ],
+    "in": [
+     28,
+     45,
+     98
+    ],
+    "the": [
+     29,
+     64,
+     86,
+     107,
+     123,
+     134
+    ],
+    "parameters": [
+     30
+    ],
+    "neural": [
+     33
+    ],
+    "network,": [
+     34
+    ],
+    "requiring": [
+     35
+    ],
+    "ever-larger": [
+     36
+    ],
+    "networks": [
+     37
+    ],
+    "cover": [
+     39
+    ],
+    "more": [
+     40,
+     47
+    ],
+    "facts.": [
+     41
+    ],
+    "To": [
+     42
+    ],
+    "modular": [
+     48
+    ],
+    "and": [
+     49,
+     68,
+     83,
+     110,
+     150,
+     159,
+     182
+    ],
+    "interpretable": [
+     50
+    ],
+    "way,": [
+     51
+    ],
+    "we": [
+     52,
+     89,
+     162
+    ],
+    "augment": [
+     53
+    ],
+    "language": [
+     54,
+     104
+    ],
+    "with": [
+     57
+    ],
+    "latent": [
+     59
+    ],
+    "retriever,": [
+     61
+    ],
+    "which": [
+     62
+    ],
+    "allows": [
+     63
+    ],
+    "retrieve": [
+     67
+    ],
+    "attend": [
+     69
+    ],
+    "over": [
+     70
+    ],
+    "documents": [
+     71
+    ],
+    "from": [
+     72
+    ],
+    "large": [
+     74
+    ],
+    "corpus": [
+     75
+    ],
+    "Wikipedia,": [
+     78
+    ],
+    "used": [
+     79
+    ],
+    "during": [
+     80
+    ],
+    "pre-training,": [
+     81
+    ],
+    "fine-tuning": [
+     82,
+     132
+    ],
+    "inference.": [
+     84
+    ],
+    "For": [
+     85
+    ],
+    "first": [
+     87
+    ],
+    "time,": [
+     88
+    ],
+    "show": [
+     90
+    ],
+    "how": [
+     91
+    ],
+    "pre-train": [
+     93
+    ],
+    "retriever": [
+     97
+    ],
+    "an": [
+     99
+    ],
+    "unsupervised": [
+     100
+    ],
+    "manner,": [
+     101
+    ],
+    "using": [
+     102
+    ],
+    "masked": [
+     103
+    ],
+    "modeling": [
+     105
+    ],
+    "learning": [
+     108
+    ],
+    "signal": [
+     109
+    ],
+    "backpropagating": [
+     111
+    ],
+    "through": [
+     112
+    ],
+    "retrieval": [
+     114
+    ],
+    "step": [
+     115
+    ],
+    "that": [
+     116,
+     161
+    ],
+    "considers": [
+     117
+    ],
+    "millions": [
+     118
+    ],
+    "documents.": [
+     120
+    ],
+    "We": [
+     121,
+     142
+    ],
+    "demonstrate": [
+     122
+    ],
+    "effectiveness": [
+     124
+    ],
+    "Retrieval-Augmented": [
+     126
+    ],
+    "Model": [
+     128
+    ],
+    "(REALM)": [
+     130
+    ],
+    "by": [
+     131,
+     167
+    ],
+    "on": [
+     133,
+     154
+    ],
+    "challenging": [
+     135
+    ],
+    "task": [
+     136
+    ],
+    "Open-domain": [
+     138
+    ],
+    "Question": [
+     139
+    ],
+    "Answering": [
+     140
+    ],
+    "(Open-QA).": [
+     141
+    ],
+    "compare": [
+     143
+    ],
+    "against": [
+     144
+    ],
+    "state-of-the-art": [
+     145
+    ],
+    "models": [
+     146
+    ],
+    "both": [
+     148
+    ],
+    "explicit": [
+     149
+    ],
+    "implicit": [
+     151
+    ],
+    "storage": [
+     153
+    ],
+    "three": [
+     155
+    ],
+    "popular": [
+     156
+    ],
+    "Open-QA": [
+     157
+    ],
+    "benchmarks,": [
+     158
+    ],
+    "find": [
+     160
+    ],
+    "outperform": [
+     163
+    ],
+    "all": [
+     164
+    ],
+    "previous": [
+     165
+    ],
+    "methods": [
+     166
+    ],
+    "significant": [
+     169
+    ],
+    "margin": [
+     170
+    ],
+    "(4-16%": [
+     171
+    ],
+    "absolute": [
+     172
+    ],
+    "accuracy),": [
+     173
+    ],
+    "while": [
+     174
+    ],
+    "also": [
+     175
+    ],
+    "providing": [
+     176
+    ],
+    "qualitative": [
+     177
+    ],
+    "benefits": [
+     178
+    ],
+    "interpretability": [
+     181
+    ],
+    "modularity.": [
+     183
+    ]
+   }
+  },
+  {
+   "id": "https://openalex.org/W1532325895",
+   "doi": "https://doi.org/10.5860/choice.46-2715",
+   "title": "Introduction to information retrieval",
+   "publication_year": 2009,
+   "cited_by_count": 12408,
+   "type": "book-review",
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5046006076",
+      "display_name": "Christopher D. Manning",
+      "orcid": "https://orcid.org/0000-0001-6155-649X",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-6155-649X"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I97018004",
+       "display_name": "Stanford University",
+       "ror": "https://ror.org/00f54p054",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I97018004"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Manning, Christopher D. 1965-",
+     "raw_affiliation_strings": [
+      "#N#        Stanford University, California"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "#N#        Stanford University, California",
+       "institution_ids": [
+        "https://openalex.org/I97018004"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5078491738",
+      "display_name": "Prabhakar Raghavan",
+      "orcid": "https://orcid.org/0000-0001-9853-7604",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-9853-7604",
+       "https://orcid.org/0009-0009-3506-0226"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1291425158",
+       "display_name": "Google (United States)",
+       "ror": "https://ror.org/00njsd438",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I1291425158",
+        "https://openalex.org/I4210128969"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Raghavan, Prabhakar",
+     "raw_affiliation_strings": [
+      "GOOGLE INC "
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "GOOGLE INC ",
+       "institution_ids": [
+        "https://openalex.org/I1291425158"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5071144367",
+      "display_name": "Hinrich Sch\u00fctze",
+      "orcid": "https://orcid.org/0000-0001-9514-7934",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-9514-7934"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I100066346",
+       "display_name": "University of Stuttgart",
+       "ror": "https://ror.org/04vnq7t77",
+       "country_code": "DE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I100066346"
+       ]
+      }
+     ],
+     "countries": [
+      "DE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Sch\u00fctze, Hinrich 1964-",
+     "raw_affiliation_strings": [
+      "Universit\u00e4t Stuttgart"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Universit\u00e4t Stuttgart",
+       "institution_ids": [
+        "https://openalex.org/I100066346"
+       ]
+      }
+     ]
+    }
+   ],
+   "abstract_inverted_index": {
+    "Class-tested": [
+     0
+    ],
+    "and": [
+     1,
+     7,
+     14,
+     21,
+     38,
+     45,
+     52,
+     73,
+     87,
+     113,
+     116
+    ],
+    "coherent,": [
+     2
+    ],
+    "this": [
+     3
+    ],
+    "textbook": [
+     4
+    ],
+    "teaches": [
+     5
+    ],
+    "classical": [
+     6
+    ],
+    "web": [
+     8,
+     12
+    ],
+    "information": [
+     9,
+     82
+    ],
+    "retrieval,": [
+     10
+    ],
+    "including": [
+     11
+    ],
+    "search": [
+     13
+    ],
+    "the": [
+     15,
+     36,
+     56,
+     66,
+     100,
+     127
+    ],
+    "related": [
+     16
+    ],
+    "areas": [
+     17
+    ],
+    "of": [
+     18,
+     32,
+     35,
+     40,
+     58
+    ],
+    "text": [
+     19,
+     22,
+     63
+    ],
+    "classification": [
+     20
+    ],
+    "clustering": [
+     23
+    ],
+    "from": [
+     24,
+     96
+    ],
+    "basic": [
+     25
+    ],
+    "concepts.": [
+     26
+    ],
+    "It": [
+     27
+    ],
+    "gives": [
+     28
+    ],
+    "an": [
+     29,
+     53
+    ],
+    "up-to-date": [
+     30
+    ],
+    "treatment": [
+     31
+    ],
+    "all": [
+     33
+    ],
+    "aspects": [
+     34
+    ],
+    "design": [
+     37
+    ],
+    "implementation": [
+     39
+    ],
+    "systems": [
+     41
+    ],
+    "for": [
+     42,
+     49,
+     78,
+     84,
+     121
+    ],
+    "gathering,": [
+     43
+    ],
+    "indexing,": [
+     44
+    ],
+    "searching": [
+     46
+    ],
+    "documents;": [
+     47
+    ],
+    "methods": [
+     48,
+     61
+    ],
+    "evaluating": [
+     50
+    ],
+    "systems;": [
+     51
+    ],
+    "introduction": [
+     54
+    ],
+    "to": [
+     55,
+     108,
+     131
+    ],
+    "use": [
+     57
+    ],
+    "machine": [
+     59
+    ],
+    "learning": [
+     60
+    ],
+    "on": [
+     62,
+     94
+    ],
+    "collections.": [
+     64
+    ],
+    "All": [
+     65
+    ],
+    "important": [
+     67
+    ],
+    "ideas": [
+     68
+    ],
+    "are": [
+     69,
+     123
+    ],
+    "explained": [
+     70
+    ],
+    "using": [
+     71
+    ],
+    "examples": [
+     72
+    ],
+    "figures,": [
+     74
+    ],
+    "making": [
+     75
+    ],
+    "it": [
+     76
+    ],
+    "perfect": [
+     77
+    ],
+    "introductory": [
+     79
+    ],
+    "courses": [
+     80
+    ],
+    "in": [
+     81,
+     90,
+     106
+    ],
+    "retrieval": [
+     83
+    ],
+    "advanced": [
+     85
+    ],
+    "undergraduates": [
+     86
+    ],
+    "graduate": [
+     88
+    ],
+    "students": [
+     89
+    ],
+    "computer": [
+     91
+    ],
+    "science.": [
+     92
+    ],
+    "Based": [
+     93
+    ],
+    "feedback": [
+     95
+    ],
+    "extensive": [
+     97
+    ],
+    "classroom": [
+     98
+    ],
+    "experience,": [
+     99
+    ],
+    "book": [
+     101
+    ],
+    "has": [
+     102
+    ],
+    "been": [
+     103
+    ],
+    "carefully": [
+     104
+    ],
+    "structured": [
+     105
+    ],
+    "order": [
+     107
+    ],
+    "make": [
+     109
+    ],
+    "teaching": [
+     110
+    ],
+    "more": [
+     111
+    ],
+    "natural": [
+     112
+    ],
+    "effective.": [
+     114
+    ],
+    "Slides": [
+     115
+    ],
+    "additional": [
+     117
+    ],
+    "exercises": [
+     118
+    ],
+    "(with": [
+     119
+    ],
+    "solutions": [
+     120
+    ],
+    "lecturers)": [
+     122
+    ],
+    "also": [
+     124
+    ],
+    "available": [
+     125
+    ],
+    "through": [
+     126
+    ],
+    "book's": [
+     128
+    ],
+    "supporting": [
+     129
+    ],
+    "website": [
+     130
+    ],
+    "help": [
+     132
+    ],
+    "course": [
+     133
+    ],
+    "instructors": [
+     134
+    ],
+    "prepare": [
+     135
+    ],
+    "their": [
+     136
+    ],
+    "lectures.": [
+     137
+    ]
+   }
+  },
+  {
+   "id": "https://openalex.org/W2743627947",
+   "doi": "https://doi.org/10.1007/s11263-018-1070-x",
+   "title": "Augmented Reality Meets Computer Vision: Efficient Data Generation for Urban Driving Scenes",
+   "publication_year": 2018,
+   "cited_by_count": 514,
+   "type": "article",
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5006916030",
+      "display_name": "Hassan Abu Alhaija",
+      "orcid": "https://orcid.org/0000-0001-6669-7072",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-6669-7072"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I223822909",
+       "display_name": "Heidelberg University",
+       "ror": "https://ror.org/038t36y30",
+       "country_code": "DE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I223822909"
+       ]
+      }
+     ],
+     "countries": [
+      "DE"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Hassan Abu Alhaija",
+     "raw_affiliation_strings": [
+      "Visual Learning Lab, Heidelberg University, Heidelberg, Germany"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-6669-7072",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Visual Learning Lab, Heidelberg University, Heidelberg, Germany",
+       "institution_ids": [
+        "https://openalex.org/I223822909"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5021827101",
+      "display_name": "Siva Karthik Mustikovela",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I223822909",
+       "display_name": "Heidelberg University",
+       "ror": "https://ror.org/038t36y30",
+       "country_code": "DE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I223822909"
+       ]
+      }
+     ],
+     "countries": [
+      "DE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Siva Karthik Mustikovela",
+     "raw_affiliation_strings": [
+      "Visual Learning Lab, Heidelberg University, Heidelberg, Germany"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Visual Learning Lab, Heidelberg University, Heidelberg, Germany",
+       "institution_ids": [
+        "https://openalex.org/I223822909"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5055590646",
+      "display_name": "Lars Mescheder",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210135521",
+       "display_name": "Max Planck Institute for Intelligent Systems",
+       "ror": "https://ror.org/04fq9j139",
+       "country_code": "DE",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I149899117",
+        "https://openalex.org/I4210135521"
+       ]
+      }
+     ],
+     "countries": [
+      "DE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Lars Mescheder",
+     "raw_affiliation_strings": [
+      "Autonomous Vision Group, MPI-IS T\u00fcbingen, T\u00fcbingen, Germany"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Autonomous Vision Group, MPI-IS T\u00fcbingen, T\u00fcbingen, Germany",
+       "institution_ids": [
+        "https://openalex.org/I4210135521"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5016606943",
+      "display_name": "Andreas Geiger",
+      "orcid": "https://orcid.org/0000-0002-8151-3726",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-8151-3726"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I35440088",
+       "display_name": "ETH Zurich",
+       "ror": "https://ror.org/05a28rw58",
+       "country_code": "CH",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2799323385",
+        "https://openalex.org/I35440088"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210135521",
+       "display_name": "Max Planck Institute for Intelligent Systems",
+       "ror": "https://ror.org/04fq9j139",
+       "country_code": "DE",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I149899117",
+        "https://openalex.org/I4210135521"
+       ]
+      }
+     ],
+     "countries": [
+      "CH",
+      "DE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Andreas Geiger",
+     "raw_affiliation_strings": [
+      "Autonomous Vision Group, MPI-IS T\u00fcbingen, T\u00fcbingen, Germany",
+      "Computer Vision and Geometry Group, ETH Z\u00fcrich, Zurich, Switzerland"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Autonomous Vision Group, MPI-IS T\u00fcbingen, T\u00fcbingen, Germany",
+       "institution_ids": [
+        "https://openalex.org/I4210135521"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Computer Vision and Geometry Group, ETH Z\u00fcrich, Zurich, Switzerland",
+       "institution_ids": [
+        "https://openalex.org/I35440088"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5034290170",
+      "display_name": "Carsten Rother",
+      "orcid": "https://orcid.org/0009-0005-3245-6744",
+      "observed_orcids": [
+       "https://orcid.org/0009-0005-3245-6744"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I223822909",
+       "display_name": "Heidelberg University",
+       "ror": "https://ror.org/038t36y30",
+       "country_code": "DE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I223822909"
+       ]
+      }
+     ],
+     "countries": [
+      "DE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Carsten Rother",
+     "raw_affiliation_strings": [
+      "Visual Learning Lab, Heidelberg University, Heidelberg, Germany"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Visual Learning Lab, Heidelberg University, Heidelberg, Germany",
+       "institution_ids": [
+        "https://openalex.org/I223822909"
+       ]
+      }
+     ]
+    }
+   ],
+   "abstract_inverted_index": null
+  },
+  {
+   "id": "https://openalex.org/W2152012447",
+   "doi": "https://doi.org/10.5194/hess-15-1109-2011",
+   "title": "Status of satellite precipitation retrievals",
+   "publication_year": 2011,
+   "cited_by_count": 564,
+   "type": "article",
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5084463178",
+      "display_name": "Christopher KIDD",
+      "orcid": "https://orcid.org/0000-0001-5906-8446",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-5906-8446"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1306266525",
+       "display_name": "Goddard Space Flight Center",
+       "ror": "https://ror.org/0171mag52",
+       "country_code": "US",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I1306266525",
+        "https://openalex.org/I4210124779"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210144776",
+       "display_name": "Earth System Science Interdisciplinary Center",
+       "ror": "https://ror.org/042607708",
+       "country_code": "US",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4210144776",
+        "https://openalex.org/I66946132"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I66946132",
+       "display_name": "University of Maryland, College Park",
+       "ror": "https://ror.org/047s2c258",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I66946132"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "C. Kidd",
+     "raw_affiliation_strings": [
+      "Labortory for Atmospheres, NASA/GSFC, Greenbelt and ESSIC, University of Maryland, College Park, MD, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Labortory for Atmospheres, NASA/GSFC, Greenbelt and ESSIC, University of Maryland, College Park, MD, USA",
+       "institution_ids": [
+        "https://openalex.org/I1306266525",
+        "https://openalex.org/I4210144776",
+        "https://openalex.org/I66946132"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5000773178",
+      "display_name": "Vincenzo Levizzani",
+      "orcid": "https://orcid.org/0000-0002-7620-5235",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-7620-5235"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210096500",
+       "display_name": "Institute of Atmospheric Sciences and Climate",
+       "ror": "https://ror.org/00n8ttd98",
+       "country_code": "IT",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4210096500",
+        "https://openalex.org/I4210155236"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210155236",
+       "display_name": "National Research Council",
+       "ror": "https://ror.org/04zaypm56",
+       "country_code": "IT",
+       "type": "nonprofit",
+       "lineage": [
+        "https://openalex.org/I4210155236"
+       ]
+      }
+     ],
+     "countries": [
+      "IT"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "V. Levizzani",
+     "raw_affiliation_strings": [
+      "National Research Council, Institute of Atmospheric Sciences and Climate, Bologna, Italy"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "National Research Council, Institute of Atmospheric Sciences and Climate, Bologna, Italy",
+       "institution_ids": [
+        "https://openalex.org/I4210096500",
+        "https://openalex.org/I4210155236"
+       ]
+      }
+     ]
+    }
+   ],
+   "abstract_inverted_index": {
+    "Abstract.": [
+     0
+    ],
+    "Satellites": [
+     1
+    ],
+    "offer": [
+     2
+    ],
+    "an": [
+     3,
+     51
+    ],
+    "unrivalled": [
+     4
+    ],
+    "vantage": [
+     5
+    ],
+    "point": [
+     6
+    ],
+    "to": [
+     7,
+     99
+    ],
+    "observe": [
+     8
+    ],
+    "and": [
+     9,
+     14,
+     18,
+     30,
+     34,
+     45,
+     73,
+     78,
+     82
+    ],
+    "measure": [
+     10
+    ],
+    "Earth": [
+     11
+    ],
+    "system": [
+     12
+    ],
+    "processes": [
+     13
+    ],
+    "parameters.": [
+     15
+    ],
+    "Precipitation": [
+     16
+    ],
+    "(rain": [
+     17
+    ],
+    "snow)": [
+     19
+    ],
+    "in": [
+     20,
+     66
+    ],
+    "particular,": [
+     21
+    ],
+    "benefit": [
+     22
+    ],
+    "from": [
+     23
+    ],
+    "such": [
+     24,
+     104
+    ],
+    "observations": [
+     25
+    ],
+    "since": [
+     26
+    ],
+    "precipitation": [
+     27,
+     56,
+     86,
+     94
+    ],
+    "is": [
+     28
+    ],
+    "spatially": [
+     29
+    ],
+    "temporally": [
+     31
+    ],
+    "highly": [
+     32
+    ],
+    "variable": [
+     33
+    ],
+    "with": [
+     35
+    ],
+    "satellites": [
+     36
+    ],
+    "overcoming": [
+     37
+    ],
+    "some": [
+     38
+    ],
+    "of": [
+     39,
+     42,
+     54,
+     61,
+     69,
+     75,
+     84,
+     90,
+     103
+    ],
+    "the": [
+     40,
+     59,
+     62,
+     67,
+     71,
+     79,
+     101
+    ],
+    "deficiencies": [
+     41
+    ],
+    "conventional": [
+     43
+    ],
+    "gauge": [
+     44
+    ],
+    "radar": [
+     46
+    ],
+    "measurements.": [
+     47
+    ],
+    "This": [
+     48
+    ],
+    "paper": [
+     49
+    ],
+    "provides": [
+     50
+    ],
+    "overall": [
+     52
+    ],
+    "review": [
+     53
+    ],
+    "quantitative": [
+     55
+    ],
+    "estimation,": [
+     57
+    ],
+    "covering": [
+     58
+    ],
+    "basis": [
+     60
+    ],
+    "satellite": [
+     63
+    ],
+    "systems": [
+     64
+    ],
+    "used": [
+     65
+    ],
+    "observation": [
+     68
+    ],
+    "precipitation,": [
+     70
+    ],
+    "dissemination": [
+     72
+    ],
+    "processing": [
+     74
+    ],
+    "this": [
+     76
+    ],
+    "data,": [
+     77
+    ],
+    "generation,": [
+     80
+    ],
+    "availability": [
+     81
+    ],
+    "validation": [
+     83
+    ],
+    "these": [
+     85,
+     93
+    ],
+    "estimates.": [
+     87
+    ],
+    "A": [
+     88
+    ],
+    "selection": [
+     89
+    ],
+    "applications": [
+     91
+    ],
+    "utilising": [
+     92
+    ],
+    "estimates": [
+     95
+    ],
+    "are": [
+     96
+    ],
+    "then": [
+     97
+    ],
+    "outlined": [
+     98
+    ],
+    "exemplify": [
+     100
+    ],
+    "utility": [
+     102
+    ],
+    "products.": [
+     105
+    ]
+   }
+  },
+  {
+   "id": "https://openalex.org/W3015883388",
+   "doi": "https://doi.org/10.18653/v1/2020.emnlp-main.550",
+   "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+   "publication_year": 2020,
+   "cited_by_count": 8639,
+   "type": "conference-paper",
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5032508066",
+      "display_name": "Vladimir Karpukhin",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2252078561",
+       "display_name": "Meta (Israel)",
+       "ror": "https://ror.org/02388em19",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ],
+     "countries": [
+      "IL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Vladimir Karpukhin",
+     "raw_affiliation_strings": [
+      "Meta (Israel), Tel Aviv, Israel"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+       "institution_ids": [
+        "https://openalex.org/I2252078561"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5071728146",
+      "display_name": "Barlas O\u011fuz",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2252078561",
+       "display_name": "Meta (Israel)",
+       "ror": "https://ror.org/02388em19",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ],
+     "countries": [
+      "IL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Barlas Oguz",
+     "raw_affiliation_strings": [
+      "Meta (Israel), Tel Aviv, Israel"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+       "institution_ids": [
+        "https://openalex.org/I2252078561"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5039158419",
+      "display_name": "Sewon Min",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I201448701",
+       "display_name": "University of Washington",
+       "ror": "https://ror.org/00cvxb145",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I201448701"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Sewon Min",
+     "raw_affiliation_strings": [
+      "University of Washington",
+      "University of Washington, Seattle, United States"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "University of Washington",
+       "institution_ids": [
+        "https://openalex.org/I201448701"
+       ]
+      },
+      {
+       "raw_affiliation_string": "University of Washington, Seattle, United States",
+       "institution_ids": [
+        "https://openalex.org/I201448701"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5063377058",
+      "display_name": "Patrick Lewis",
+      "orcid": "https://orcid.org/0000-0002-2192-9543",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-2192-9543"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2252078561",
+       "display_name": "Meta (Israel)",
+       "ror": "https://ror.org/02388em19",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ],
+     "countries": [
+      "IL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Patrick Lewis",
+     "raw_affiliation_strings": [
+      "Meta (Israel), Tel Aviv, Israel"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+       "institution_ids": [
+        "https://openalex.org/I2252078561"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5082046914",
+      "display_name": "Ledell Wu",
+      "orcid": "https://orcid.org/0000-0002-3576-8920",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-3576-8920"
+      ]
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Ledell Wu",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5016113002",
+      "display_name": "Sergey Edunov",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2252078561",
+       "display_name": "Meta (Israel)",
+       "ror": "https://ror.org/02388em19",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ],
+     "countries": [
+      "IL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Sergey Edunov",
+     "raw_affiliation_strings": [
+      "Meta (Israel), Tel Aviv, Israel"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+       "institution_ids": [
+        "https://openalex.org/I2252078561"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5051064208",
+      "display_name": "Danqi Chen",
+      "orcid": "https://orcid.org/0000-0002-6226-6838",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-6226-6838",
+       "https://orcid.org/0000-0001-5308-2634"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I20089843",
+       "display_name": "Princeton University",
+       "ror": "https://ror.org/00hx57361",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I20089843"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Danqi Chen",
+     "raw_affiliation_strings": [
+      "Princeton University",
+      "Princeton University, Princeton, United States"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Princeton University",
+       "institution_ids": [
+        "https://openalex.org/I20089843"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Princeton University, Princeton, United States",
+       "institution_ids": [
+        "https://openalex.org/I20089843"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5066873932",
+      "display_name": "Wen-tau Yih",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2252078561",
+       "display_name": "Meta (Israel)",
+       "ror": "https://ror.org/02388em19",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      }
+     ],
+     "countries": [
+      "IL"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Wen-tau Yih",
+     "raw_affiliation_strings": [
+      "Meta (Israel), Tel Aviv, Israel"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Meta (Israel), Tel Aviv, Israel",
+       "institution_ids": [
+        "https://openalex.org/I2252078561"
+       ]
+      }
+     ]
+    }
+   ],
+   "abstract_inverted_index": {
+    "Vladimir": [
+     0
+    ],
+    "Karpukhin,": [
+     1
+    ],
+    "Barlas": [
+     2
+    ],
+    "Oguz,": [
+     3
+    ],
+    "Sewon": [
+     4
+    ],
+    "Min,": [
+     5
+    ],
+    "Patrick": [
+     6
+    ],
+    "Lewis,": [
+     7
+    ],
+    "Ledell": [
+     8
+    ],
+    "Wu,": [
+     9
+    ],
+    "Sergey": [
+     10
+    ],
+    "Edunov,": [
+     11
+    ],
+    "Danqi": [
+     12
+    ],
+    "Chen,": [
+     13
+    ],
+    "Wen-tau": [
+     14
+    ],
+    "Yih.": [
+     15
+    ],
+    "Proceedings": [
+     16
+    ],
+    "of": [
+     17
+    ],
+    "the": [
+     18
+    ],
+    "2020": [
+     19
+    ],
+    "Conference": [
+     20
+    ],
+    "on": [
+     21
+    ],
+    "Empirical": [
+     22
+    ],
+    "Methods": [
+     23
+    ],
+    "in": [
+     24
+    ],
+    "Natural": [
+     25
+    ],
+    "Language": [
+     26
+    ],
+    "Processing": [
+     27
+    ],
+    "(EMNLP).": [
+     28
+    ],
+    "2020.": [
+     29
+    ]
+   }
+  },
+  {
+   "id": "https://openalex.org/W2095368471",
+   "doi": "https://doi.org/10.1145/312624.312680",
+   "title": "A hidden Markov model information retrieval system",
+   "publication_year": 1999,
+   "cited_by_count": 518,
+   "type": "conference-paper",
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5037336212",
+      "display_name": "David R. H. Miller",
+      "orcid": "https://orcid.org/0000-0002-8091-1861",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-8091-1861"
+      ]
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "David R. H. Miller",
+     "raw_affiliation_strings": [
+      "BBN Technologies, Cambridge, MA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "BBN Technologies, Cambridge, MA",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5109834810",
+      "display_name": "Tim Leek",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Tim Leek",
+     "raw_affiliation_strings": [
+      "BBN Technologies, Cambridge, MA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "BBN Technologies, Cambridge, MA",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5110434216",
+      "display_name": "Richard Schwartz",
+      "orcid": "https://orcid.org/0000-0003-1383-2941",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-1383-2941"
+      ]
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Richard M. Schwartz",
+     "raw_affiliation_strings": [
+      "BBN Technologies, Cambridge, MA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "BBN Technologies, Cambridge, MA",
+       "institution_ids": []
+      }
+     ]
+    }
+   ],
+   "abstract_inverted_index": {
+    "We": [
+     0
+    ],
+    "p": [
+     1
+    ],
+    "r": [
+     2
+    ],
+    "e": [
+     3,
+     5,
+     20
+    ],
+    "s": [
+     4
+    ],
+    "n": [
+     6
+    ],
+    "t": [
+     7
+    ],
+    "a": [
+     8,
+     23,
+     66,
+     77,
+     94
+    ],
+    "new": [
+     9
+    ],
+    "method": [
+     10,
+     68
+    ],
+    "for": [
+     11,
+     26,
+     69
+    ],
+    "information": [
+     12
+    ],
+    "retrieval": [
+     13,
+     60,
+     96,
+     108
+    ],
+    "using": [
+     14
+    ],
+    "hidden": [
+     15
+    ],
+    "Markov": [
+     16
+    ],
+    "models": [
+     17,
+     82
+    ],
+    "(HMMs).We": [
+     18
+    ],
+    "d": [
+     19
+    ],
+    "v": [
+     21
+    ],
+    "elop": [
+     22
+    ],
+    "general": [
+     24
+    ],
+    "framework": [
+     25
+    ],
+    "incorporating": [
+     27
+    ],
+    "multiple": [
+     28
+    ],
+    "word": [
+     29
+    ],
+    "generation": [
+     30
+    ],
+    "mechanisms": [
+     31
+    ],
+    "within": [
+     32
+    ],
+    "the": [
+     33,
+     54,
+     74,
+     101,
+     104
+    ],
+    "same": [
+     34
+    ],
+    "model.We": [
+     35
+    ],
+    "then": [
+     36
+    ],
+    "demonstrate": [
+     37
+    ],
+    "that": [
+     38,
+     81,
+     98
+    ],
+    "an": [
+     39
+    ],
+    "extremely": [
+     40
+    ],
+    "simple": [
+     41
+    ],
+    "realization": [
+     42
+    ],
+    "of": [
+     43
+    ],
+    "this": [
+     44
+    ],
+    "model": [
+     45
+    ],
+    "substantially": [
+     46
+    ],
+    "outperforms": [
+     47
+    ],
+    "standard": [
+     48
+    ],
+    "tf": [
+     49
+    ],
+    ":idf": [
+     50
+    ],
+    "ranking": [
+     51
+    ],
+    "on": [
+     52,
+     63,
+     103
+    ],
+    "both": [
+     53
+    ],
+    "TREC-6": [
+     55
+    ],
+    "and": [
+     56,
+     85
+    ],
+    "TREC-7": [
+     57,
+     105
+    ],
+    "ad": [
+     58,
+     106
+    ],
+    "hoc": [
+     59,
+     107
+    ],
+    "tasks.We": [
+     61
+    ],
+    "go": [
+     62
+    ],
+    "to": [
+     64
+    ],
+    "present": [
+     65
+    ],
+    "novel": [
+     67
+    ],
+    "performing": [
+     70
+    ],
+    "blind": [
+     71
+    ],
+    "feedback": [
+     72
+    ],
+    "in": [
+     73
+    ],
+    "HMM": [
+     75,
+     80
+    ],
+    "framework,": [
+     76
+    ],
+    "more": [
+     78
+    ],
+    "complex": [
+     79
+    ],
+    "bigram": [
+     83
+    ],
+    "production,": [
+     84
+    ],
+    "several": [
+     86
+    ],
+    "other": [
+     87
+    ],
+    "algorithmic": [
+     88
+    ],
+    "re": [
+     89
+    ],
+    "nements.Together,": [
+     90
+    ],
+    "these": [
+     91
+    ],
+    "methods": [
+     92
+    ],
+    "form": [
+     93
+    ],
+    "state-of-the-art": [
+     95
+    ],
+    "system": [
+     97
+    ],
+    "ranked": [
+     99
+    ],
+    "among": [
+     100
+    ],
+    "best": [
+     102
+    ],
+    "task.": [
+     109
+    ]
+   }
+  }
+ ],
+ "group_by": []
+}
