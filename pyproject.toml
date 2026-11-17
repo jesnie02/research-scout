@@ -28,7 +28,7 @@ fail_under = 95
 [tool.mypy]
 strict = true
 plugins = ["pydantic.mypy"]
-files = ["scout", "scripts", "eval", "tests"]
+files = ["scout", "scripts", "eval", "tests", "main.py"]
 
 [tool.ruff]
 line-length = 100

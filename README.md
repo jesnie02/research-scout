@@ -13,6 +13,17 @@ cp .env.example .env    # then fill in your keys; .env is git-ignored
 uv run pytest           # tests run offline, no keys needed
 ```
 
+## Run the agent
+
+Set `LLM_BASE_URL`, `LLM_MODEL`, `LLM_API_KEY` and `OPENALEX_API_KEY` in `.env` (see `.env.example`).
+The measured choice is Cohere Command A+ (`LLM_BASE_URL=https://api.cohere.com`,
+`LLM_MODEL=command-a-plus-05-2026`).
+
+```bash
+uv run python main.py "Find a paper about retrieval-augmented generation published before 2021 with more than 500 citations. Summarize its contribution in 5-7 sentences."
+uv run python main.py "..." --json   # full structured result
+```
+
 ## Evaluation cases
 
 Cases live in `eval/cases.json` (format: see `eval/cases.example.json`). Write the expectations
